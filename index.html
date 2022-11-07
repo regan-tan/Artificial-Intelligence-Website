@@ -8,7 +8,7 @@
 
 </head>
 <body>
-<!-- partial:index.partial.html -->
+
 <div class="header">
  <div class="menu">
   <svg class="line-top" width="750" height="15" viewbox="0,0 1000,20">
@@ -22,7 +22,34 @@
    />
   </svg>
   <ul>
-   <li>Home</li><li>Gallery</li><li>Contact</li><li>About</li>
+   <li>Home</li><li>History</li><li>Contact</li><li>About</li>
+   <nav>
+    <div id="logo">
+     Taylor Swift
+    </div>
+     <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li class="dropdown" onmouseover="hover(this);" onmouseout="out(this);"><a href="albums.html">Albums &nbsp;<i class="fa fa-caret-down"></i></a>
+        <div class="dd">
+         <div id="up_arrow"></div>
+       <ul>
+           <li><a href="midnightsalbum.html">Midnights (2022)</a></li>
+           <li><a href="evermorealbum.html">evermore (2020)</a></li>
+           <li><a href="folklorealbum.html">folklore (2020)</a></li>
+           <li><a href="loveralbum.html">Lover (2019)</a></li>
+           <li><a href="reputationalbum.html">Reputation (2017)</a></li>
+           <li><a href="1989album.html">1989 (2014)</a></li>
+           <li><a href="redalbum.html">Red (2012)</a></li>
+           <li><a href="speaknowalbum.html">Speak Now (2010)</a></li>
+           <li><a href="fearlessalbum.html">Fearless (2008)</a></li>
+           <li><a href="tsalbum.html">Taylor Swift (2006)</a></li>
+         </ul>
+        </div>
+      </li>
+      <li><a href="quizmain.html">Quizzes</a></li>
+      <li><a href="feedback.html">Feedback</a></li>
+ </nav>
   </ul>
   <svg class="line-bottom" width="750" height="30" viewbox="0,0 1000,40">
    <polygon class="lb" points="35,53 115,53 125,43 135,53 215,53" />
@@ -35,10 +62,43 @@
  </div>
 </div>
 <div class="content">
- <h1>Navigation Bar with Hover and Click effects</h1>
+ 
 </div>
-<!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js'></script><script  src="script.js"></script>
 
+
+
+
 </body>
+
+
+
+
+<footer>
+    <link href="footerstyles.css" rel="stylesheet">
+    <div class="footer-container">
+      <div class="left-col">
+        <!--<img src="logo.png" alt="" class="logo">-->
+        <div class="social-media">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p class="rights-text">© 2022 Created By <b>Regan</b>.  All Rights Reserved.</p>
+      </div>
+
+      <div class="right-col">
+        <h1>Our Newsletter</h1>
+        <div class="border"></div>
+        <p style=color:#1bee93>Enter Your Email to get our news and updates.</p>
+        <form action="" class="newsletter-form">
+          <input type="text" class="txtb" placeholder="Enter Your Email">
+          <input type="submit" class="btn" value="submit">
+        </form>
+      </div>
+    </div>
+  </footer>
+
 </html>
