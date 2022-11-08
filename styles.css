@@ -67,11 +67,43 @@ svg.line-bottom {
 	width: 750px;
 	margin: 0 auto;
 }
+/*start*/
 ul {
-	padding: 0;
+	list-style-type: none;
 	margin: 0;
-}
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(0, 0, 0);
+  }
+  
+  li {
+	float: left;
+  }
+  
+  li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 0px 0px;
+	text-decoration: none;
+  }
 
+  li a:hover {
+	background-color: rgb(0, 0, 0);
+  }
+/*stop*/
+
+a {
+	text-decoration: none;
+}
+li a {
+	display: block;
+  }
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  }
 ul li {
 	margin: 0;
 	padding: 10px 0 10px 0;
